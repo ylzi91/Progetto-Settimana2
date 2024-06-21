@@ -53,11 +53,12 @@ header nav ul, header nav li{
 
 main {
     background-color: #E9EDEE;
+    padding-top: 30px;
 }
 
 #miniBanner, #banner, #sequencePhoto, .bigImage{
     width: 90%;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 
 #miniBanner{
@@ -66,7 +67,12 @@ main {
     background-color: #F66500;
     text-align: center;
     padding: 5px 0;
+   
 }
+#minibanner, #banner, #sequencePhoto{
+    margin-bottom: 40px;
+}
+
 
 #banner {
     background-image: url(../images/bg-image.png);
@@ -119,7 +125,8 @@ main {
 
 
 .photoOfSequence img{
-    height: 350px;
+    height: 300px;
+
     max-width: 100%;
     border-radius: 10%;
     box-shadow: 3px 3px 20px 1px gray, -3px -3px 20px 1px gray;
