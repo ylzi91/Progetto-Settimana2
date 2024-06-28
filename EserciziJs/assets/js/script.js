@@ -164,10 +164,23 @@ while (numericArray[y] !== 32){
     es. [f, b, e] --> [6, 2, 5]
 */
 console.log('++++Esercizio10+++');
-const charactersArray = ['g', 'n', 'u', 'z', 'd']
+
+const alphabet = 'abcdefghilmnopqrstuvz';
+const charactersArray = ['g', 'n', 'u', 'z', 'd'];
 const numberAlfa = [];
 
-for (let l = 0; l < charactersArray.length; l ++){
+for (let l = 0; l < charactersArray.length; l++){
+    console.log(alphabet.indexOf(charactersArray[l]));
+    for (let g = 1; g <= alphabet.indexOf(charactersArray[l]) ; g++){
+        numberAlfa[l] = g +1;
+
+}
+}
+console.log(numberAlfa);
+
+
+
+/*for (let l = 0; l < charactersArray.length; l++){
     switch (charactersArray[l]){
         case 'a':
             numberAlfa[l] = 1;
@@ -233,7 +246,8 @@ for (let l = 0; l < charactersArray.length; l ++){
             numberAlfa[l] = 21;
             break;
     }
-}
+}*/
+
 
 console.log(numberAlfa);
 
